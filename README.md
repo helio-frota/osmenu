@@ -1,6 +1,5 @@
 # osmenu
-
-A small and simple app to show Readline a OS Node modules usage.
+An interactive menu to show information about the system.
 
 run:
 

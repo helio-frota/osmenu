@@ -1,0 +1,33 @@
+{
+  "name": "osmenu",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Helio Frota",
+  "license": "Apache-2.0",
+  "scripts": {
+    "prepublish": "nsp check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/helio-frota/osmenu.git"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "index.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/helio-frota/osmenu/issues"
+  },
+  "homepage": "https://github.com/helio-frota/osmenu",
+  "devDependencies": {
+    "eslint": "~3.8.1",
+    "eslint-config-semistandard": "~7.0.0",
+    "eslint-config-standard": "~6.2.0",
+    "eslint-plugin-promise": "~3.3.0",
+    "eslint-plugin-react": "~6.4.1",
+    "eslint-plugin-standard": "~2.0.1",
+    "nsp": "~2.6.2"
+  }
+}

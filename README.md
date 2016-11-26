@@ -1,6 +1,6 @@
 # osmenu
-An interactive menu to show information about the system.
-To show features from OS and Readline node modules.
+An interactive menu to show information about the system,
+to show features from OS and Readline node modules.
 
 run:
 

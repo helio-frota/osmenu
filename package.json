@@ -11,12 +11,6 @@
     "type": "git",
     "url": "git://github.com/helio-frota/osmenu.git"
   },
-  "files": [
-    "package.json",
-    "README.md",
-    "LICENSE",
-    "index.js"
-  ],
   "bugs": {
     "url": "https://github.com/helio-frota/osmenu/issues"
   },

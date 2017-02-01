@@ -33,34 +33,34 @@ class Os {
   cpuInfo () {
     console.log('CPU(s):');
     return os.cpus()
-      .map(c => `Modelo: ${c.model} velocidade atual: ${c.speed} MHz`);
+      .map(c => `Model: ${c.model} current speed: ${c.speed} MHz`);
   }
 
   // Retorna a quantidade de memória livre do sistema em MB.
   memoriaDisponivel () {
-    return `Memória disponível: ${Math.round(os.freemem() / Math.pow(2, 20))} MB`;
+    return `Available memory: ${os.freemem()}`;
   }
 
   // Retorna a arquitetura da CPU.
   arquitetura () {
-    return `Arquitetura: ${os.arch()} bits`;
+    return `Arch: ${os.arch()} bits`;
   }
 
   // Retorna o diretório home do usuário atual.
   diretorioUsuario () {
-    return `Diretório home: ${os.homedir()}`;
+    return `Home dir: ${os.homedir()}`;
   }
 
   // Retorna informações sobre interfaces de rede.
   rede () {
-    console.log('Interfaces de rede:');
+    console.log('Network interfaces:');
     console.log('------------------------------');
     let net = os.networkInterfaces();
     let redeInfo = '';
     Object.keys(net).forEach(key => {
       redeInfo += `Interface - ${key} \n`;
       redeInfo += `IP: ${net[key][0].address} \n`;
-      redeInfo += `Máscara: ${net[key][0].netmask} \n`;
+      redeInfo += `Mask: ${net[key][0].netmask} \n`;
       redeInfo += `MAC: ${net[key][0].mac} \n`;
       redeInfo += '------------------------------\n';
     });
@@ -69,7 +69,7 @@ class Os {
 
   // Retorna a quantidade total de memória.
   totalMemoria () {
-    return `Total de memória: ${Math.round(os.totalmem() / Math.pow(2, 20))} MB`;
+    return `Total memory: ${Math.round(os.totalmem() / Math.pow(2, 20))} MB`;
   }
 
   // Retorna a quantidade de tempo que o computador está ligado.

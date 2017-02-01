@@ -15,7 +15,7 @@ process.stdin.on('keypress', (str, key) => {
   let i = new Input(key, opcoes);
 
   if (i.sair()) {
-    console.log('tchau !');
+    console.log('night!');
     return process.exit();
   }
 

@@ -38,7 +38,7 @@ class Os {
 
   // Retorna a quantidade de memória livre do sistema em MB.
   memoriaDisponivel () {
-    return `Available memory: ${os.freemem()}`;
+    return `Available memory: ${os.freemem()} MB`;
   }
 
   // Retorna a arquitetura da CPU.

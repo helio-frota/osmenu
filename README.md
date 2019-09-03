@@ -2,9 +2,10 @@
 An interactive menu to show information about the system,
 to show features from OS and Readline node modules.
 
-> This App demo was part of [NUGCE](http://nugce.org/) talk:
+> This App demo was part of NUGCE talk:
 
-> http://nugce.org/5o-meetup-nugce/
+> https://twitter.com/nugce_/status/802575196280459264
+> https://speakerfight.com/events/5o-meetup-nugce/
 
 > 26 November 2016
 
